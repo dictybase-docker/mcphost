@@ -1,6 +1,7 @@
 module github.com/mark3labs/mcphost
 
 go 1.23
+toolchain go1.24.1
 
 require (
 	github.com/charmbracelet/huh v0.3.0
@@ -10,7 +11,7 @@ require (
 	github.com/mark3labs/mcp-go v0.8.2
 	github.com/ollama/ollama v0.5.1
 	github.com/spf13/cobra v1.8.1
-	golang.org/x/term v0.22.0
+	golang.org/x/term v0.29.0
 )
 
 require (
@@ -24,7 +25,7 @@ require (
 	github.com/muesli/reflow v0.3.0 // indirect
 	github.com/yuin/goldmark v1.7.4 // indirect
 	github.com/yuin/goldmark-emoji v1.0.3 // indirect
-	golang.org/x/net v0.27.0 // indirect
+	golang.org/x/net v0.36.0 // indirect
 )
 
 require (
@@ -47,7 +48,7 @@ require (
 	github.com/rivo/uniseg v0.4.7 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
-	golang.org/x/sync v0.9.0 // indirect
-	golang.org/x/sys v0.27.0 // indirect
-	golang.org/x/text v0.20.0 // indirect
+	golang.org/x/sync v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 )
