@@ -78,16 +78,32 @@ func init() {
 	rootCmd.PersistentFlags().
 		StringVarP(&modelFlag, "model", "m", "anthropic:claude-3-5-sonnet-latest",
 			"model to use (format: provider:model, e.g. anthropic:claude-3-5-sonnet-latest or ollama:qwen2.5:3b)")
+	_ = rootCmd.MarkFlagRequired("model")
 
 	// Add debug flag
 	rootCmd.PersistentFlags().
 		BoolVar(&debugMode, "debug", false, "enable debug logging")
 
 	flags := rootCmd.PersistentFlags()
-	flags.StringVar(&openaiBaseURL, "openai-url", "", "base URL for OpenAI API (defaults to api.openai.com)")
-	flags.StringVar(&anthropicBaseURL, "anthropic-url", "", "base URL for Anthropic API (defaults to api.anthropic.com)")
+	flags.StringVar(
+		&openaiBaseURL,
+		"openai-url",
+		"",
+		"base URL for OpenAI API (defaults to api.openai.com)",
+	)
+	flags.StringVar(
+		&anthropicBaseURL,
+		"anthropic-url",
+		"",
+		"base URL for Anthropic API (defaults to api.anthropic.com)",
+	)
 	flags.StringVar(&openaiAPIKey, "openai-api-key", "", "OpenAI API key")
-	flags.StringVar(&anthropicAPIKey, "anthropic-api-key", "", "Anthropic API key")
+	flags.StringVar(
+		&anthropicAPIKey,
+		"anthropic-api-key",
+		"",
+		"Anthropic API key",
+	)
 }
 
 // Add new function to create provider
