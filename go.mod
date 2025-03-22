@@ -1,4 +1,4 @@
-module github.com/mark3labs/mcphost
+module github.com/dictybase-docker/mcphost
 
 go 1.23
 
@@ -8,6 +8,7 @@ require (
 	github.com/charmbracelet/lipgloss v1.0.0
 	github.com/charmbracelet/log v0.4.0
 	github.com/mark3labs/mcp-go v0.8.2
+	github.com/mark3labs/mcphost v0.4.4
 	github.com/ollama/ollama v0.5.1
 	github.com/spf13/cobra v1.8.1
 	golang.org/x/term v0.22.0
