@@ -59,8 +59,6 @@ github.com/lucasb-eyer/go-colorful v1.2.0 h1:1nnpGOrhyZZuNyfu1QjKiUICQ74+3FNCN69
 github.com/lucasb-eyer/go-colorful v1.2.0/go.mod h1:R4dSotOR9KMtayYi1e77YzuveK+i7ruzyGqttikkLy0=
 github.com/mark3labs/mcp-go v0.8.2 h1:OtqqXlRqjXs6zuMhf1uiuQ2iqBrhMGgLpDeVDUWMKFc=
 github.com/mark3labs/mcp-go v0.8.2/go.mod h1:cjMlBU0cv/cj9kjlgmRhoJ5JREdS7YX83xeIG9Ko/jE=
-github.com/mark3labs/mcphost v0.4.4 h1:L9a3r3XEYGVhpVNG+feAY+MIsrI2LZLXMHTwRiNMwoU=
-github.com/mark3labs/mcphost v0.4.4/go.mod h1:CZcc9bEgxoZnomM7TUTiidiISyW0vQ5Pz1Ow3yDUuPE=
 github.com/mattn/go-isatty v0.0.20 h1:xfD0iDuEKnDkl03q4limB+vH+GxLEtL/jb4xVJSWWEY=
 github.com/mattn/go-isatty v0.0.20/go.mod h1:W+V8PltTTMOvKvAeJH7IuucS94S2C6jfK/D7dTCTo3Y=
 github.com/mattn/go-localereader v0.0.1 h1:ygSAOl7ZXTx4RdPYinUpg6W99U8jWvWi9Ye2JC/oIi4=

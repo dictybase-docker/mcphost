@@ -1,6 +1,6 @@
 package main
 
-import "github.com/dictybase-docker/mcphost/cmd"
+import "github.com/mark3labs/mcphost/cmd"
 
 func main() {
 	cmd.Execute()
